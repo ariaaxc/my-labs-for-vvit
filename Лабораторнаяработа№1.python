@@ -7,3 +7,13 @@ i=1
 while i <= number:
     print(i)
     i+=1
+#2
+number=int(input('Введите первое число:'))
+number2=int(input('Введите второе число:'))
+if number>number2:
+    print(number)
+elif number2>number:
+    print(number)
+elif number == number2:
+    print('Числа равны=',number)
+
